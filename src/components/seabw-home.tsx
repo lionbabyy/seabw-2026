@@ -168,6 +168,126 @@ export function SeabwHome() {
           </div>
         </Section>
 
+        <Section
+          id="hosts"
+          kicker="ABOUT THE HOST"
+          title="Powering Southeast Asia's Digital Future"
+          desc=""
+        >
+          <div className="grid gap-4 lg:grid-cols-2">
+            <div className="rounded-3xl border border-slate-200 bg-[#F5F7FF] p-6">
+              <div className="flex items-center gap-3">
+                <img
+                  src="/ShardLab-logo.png"
+                  alt="ShardLab"
+                  className="h-10 w-auto object-contain"
+                />
+              </div>
+              <p className="mt-3 text-sm leading-relaxed text-slate-600">
+                ShardLab is a Web3-focused innovation lab of Hashed. Under a strategic partnership
+                between Hashed and SCBX, the parent company of Siam Commercial Bank, ShardLab leads
+                Web3 R&amp;D, venture building, and ecosystem-building initiatives across Southeast Asia.
+              </p>
+              <div className="mt-4 flex items-center gap-3 text-sm text-[#17154D]/80">
+                <a
+                  className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-[#2E80FF]/20 bg-[#F5F7FF] text-[#2E80FF] transition hover:border-[#2E80FF]/45 hover:bg-[#E9EEFF]"
+                  href="https://shardlab.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="ShardLab website"
+                >
+                  <span className="inline-flex h-4 w-4" aria-hidden>
+                    <svg viewBox="0 0 24 24" className="h-full w-full" fill="currentColor">
+                      <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm6.9 9h-3.1a14 14 0 0 0-1.2-5 8.02 8.02 0 0 1 4.3 5zM12 4.1c.9 1.2 1.7 3 2.1 5H9.9c.4-2 1.2-3.8 2.1-5zM4.8 11a8.02 8.02 0 0 1 4.3-5 14 14 0 0 0-1.2 5H4.8zm0 2H7.9a14 14 0 0 0 1.2 5A8.02 8.02 0 0 1 4.8 13zm7.2 6.9c-.9-1.2-1.7-3-2.1-5h4.2c-.4 2-1.2 3.8-2.1 5zm3.1-1.9a14 14 0 0 0 1.2-5h3.1a8.02 8.02 0 0 1-4.3 5z" />
+                    </svg>
+                  </span>
+                </a>
+                <a
+                  className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-[#2E80FF]/20 bg-[#F5F7FF] text-[#2E80FF] transition hover:border-[#2E80FF]/45 hover:bg-[#E9EEFF]"
+                  href="https://x.com/0xShardLab"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="ShardLab Twitter"
+                >
+                  <span className="inline-flex h-4 w-4" aria-hidden>
+                    <svg viewBox="0 0 24 24" className="h-full w-full" fill="currentColor">
+                      <path d="M18.9 3H21l-6.6 7.5L22 21h-6.2l-4.9-6.4L5.5 21H3.4l7-7.9L2 3h6.3l4.4 5.8L18.9 3zm-2.2 16h1.7L7.5 4.9H5.6L16.7 19z" />
+                    </svg>
+                  </span>
+                </a>
+                <a
+                  className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-[#2E80FF]/20 bg-[#F5F7FF] text-[#2E80FF] transition hover:border-[#2E80FF]/45 hover:bg-[#E9EEFF]"
+                  href="https://www.linkedin.com/company/shardlab/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="ShardLab LinkedIn"
+                >
+                  <span className="inline-flex h-4 w-4" aria-hidden>
+                    <svg viewBox="0 0 24 24" className="h-full w-full" fill="currentColor">
+                      <path d="M4.98 3.5a2.5 2.5 0 1 0 .02 5 2.5 2.5 0 0 0-.02-5zM3 8.98h4v12H3v-12zm7 0h3.8v1.6h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.3h-4v-5.6c0-1.3 0-3-1.9-3-1.9 0-2.2 1.4-2.2 2.9v5.7h-4v-12z" />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div className="rounded-3xl border border-slate-200 bg-[#F5F7FF] p-6">
+              <div className="flex items-center gap-3">
+                <img
+                  src="/Hashed-logo.png"
+                  alt="Hashed"
+                  className="h-10 w-auto object-contain"
+                />
+              </div>
+              <p className="mt-3 text-sm leading-relaxed text-slate-600">
+                Hashed is a blockchain-focused investment firm supporting a decentralized future through
+                strategic investments, community building, and hands-on support for portfolio companies
+                to expand globally and accelerate ecosystem growth.
+              </p>
+              <div className="mt-4 flex items-center gap-3 text-sm text-[#17154D]/80">
+                <a
+                  className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-[#2E80FF]/20 bg-[#F5F7FF] text-[#2E80FF] transition hover:border-[#2E80FF]/45 hover:bg-[#E9EEFF]"
+                  href="https://www.hashed.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Hashed website"
+                >
+                  <span className="inline-flex h-4 w-4" aria-hidden>
+                    <svg viewBox="0 0 24 24" className="h-full w-full" fill="currentColor">
+                      <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm6.9 9h-3.1a14 14 0 0 0-1.2-5 8.02 8.02 0 0 1 4.3 5zM12 4.1c.9 1.2 1.7 3 2.1 5H9.9c.4-2 1.2-3.8 2.1-5zM4.8 11a8.02 8.02 0 0 1 4.3-5 14 14 0 0 0-1.2 5H4.8zm0 2H7.9a14 14 0 0 0 1.2 5A8.02 8.02 0 0 1 4.8 13zm7.2 6.9c-.9-1.2-1.7-3-2.1-5h4.2c-.4 2-1.2 3.8-2.1 5zm3.1-1.9a14 14 0 0 0 1.2-5h3.1a8.02 8.02 0 0 1-4.3 5z" />
+                    </svg>
+                  </span>
+                </a>
+                <a
+                  className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-[#2E80FF]/20 bg-[#F5F7FF] text-[#2E80FF] transition hover:border-[#2E80FF]/45 hover:bg-[#E9EEFF]"
+                  href="https://x.com/hashed_official"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Hashed Twitter"
+                >
+                  <span className="inline-flex h-4 w-4" aria-hidden>
+                    <svg viewBox="0 0 24 24" className="h-full w-full" fill="currentColor">
+                      <path d="M18.9 3H21l-6.6 7.5L22 21h-6.2l-4.9-6.4L5.5 21H3.4l7-7.9L2 3h6.3l4.4 5.8L18.9 3zm-2.2 16h1.7L7.5 4.9H5.6L16.7 19z" />
+                    </svg>
+                  </span>
+                </a>
+                <a
+                  className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-[#2E80FF]/20 bg-[#F5F7FF] text-[#2E80FF] transition hover:border-[#2E80FF]/45 hover:bg-[#E9EEFF]"
+                  href="https://www.linkedin.com/company/hashedfund/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Hashed LinkedIn"
+                >
+                  <span className="inline-flex h-4 w-4" aria-hidden>
+                    <svg viewBox="0 0 24 24" className="h-full w-full" fill="currentColor">
+                      <path d="M4.98 3.5a2.5 2.5 0 1 0 .02 5 2.5 2.5 0 0 0-.02-5zM3 8.98h4v12H3v-12zm7 0h3.8v1.6h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.3h-4v-5.6c0-1.3 0-3-1.9-3-1.9 0-2.2 1.4-2.2 2.9v5.7h-4v-12z" />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </Section>
+
         <Subscribe />
         <Footer />
       </main>
@@ -403,38 +523,47 @@ function Subscribe() {
             <div className="rounded-2xl border border-slate-200 bg-[#F5F7FF] p-6">
               <div className="text-sm font-semibold">Social</div>
               <div className="mt-4 grid gap-2">
-                <a className="social" href="https://t.me/SEABWofficial" target="_blank" rel="noreferrer">
-                  <span className="social-icon-wrap" aria-hidden>
-                    <span className="social-icon">
-                      <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M21.6 5.2 19 18.7c-.2 1-1 1.2-1.9.8l-5.3-3.9-2.6 2.5c-.3.3-.5.5-1 .5l.4-5.6L18.9 6.8c.4-.3-.1-.5-.6-.2l-12 7.5-5.2-1.6c-1.1-.3-1.1-1.1.2-1.6l20.2-7.8c.9-.3 1.7.2 1.4 1.1z" />
-                      </svg>
-                    </span>
+                <a
+                  className="flex w-full items-center gap-3 rounded-2xl border border-[#2E80FF]/20 bg-[#F5F7FF] px-4 py-3 text-sm text-[#17154D]/90 transition hover:border-[#2E80FF]/40 hover:bg-[#E9EEFF]"
+                  href="https://t.me/SEABWofficial"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-[#2E80FF]/12 text-[#2E80FF]" aria-hidden>
+                    <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor">
+                      <path d="M21.6 5.2 19 18.7c-.2 1-1 1.2-1.9.8l-5.3-3.9-2.6 2.5c-.3.3-.5.5-1 .5l.4-5.6L18.9 6.8c.4-.3-.1-.5-.6-.2l-12 7.5-5.2-1.6c-1.1-.3-1.1-1.1.2-1.6l20.2-7.8c.9-.3 1.7.2 1.4 1.1z" />
+                    </svg>
                   </span>
-                  <span className="social-label">Telegram</span>
-                  <span className="social-arrow">↗</span>
+                  <span className="flex-1 font-semibold">Telegram</span>
+                  <span className="text-[#17154D]/45">↗</span>
                 </a>
-                <a className="social" href="https://www.linkedin.com/company/seabw/" target="_blank" rel="noreferrer">
-                  <span className="social-icon-wrap" aria-hidden>
-                    <span className="social-icon">
-                      <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M4.98 3.5a2.5 2.5 0 1 0 .02 5 2.5 2.5 0 0 0-.02-5zM3 8.98h4v12H3v-12zm7 0h3.8v1.6h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.3h-4v-5.6c0-1.3 0-3-1.9-3-1.9 0-2.2 1.4-2.2 2.9v5.7h-4v-12z" />
-                      </svg>
-                    </span>
+                <a
+                  className="flex w-full items-center gap-3 rounded-2xl border border-[#2E80FF]/20 bg-[#F5F7FF] px-4 py-3 text-sm text-[#17154D]/90 transition hover:border-[#2E80FF]/40 hover:bg-[#E9EEFF]"
+                  href="https://www.linkedin.com/company/seabw/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-[#2E80FF]/12 text-[#2E80FF]" aria-hidden>
+                    <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor">
+                      <path d="M4.98 3.5a2.5 2.5 0 1 0 .02 5 2.5 2.5 0 0 0-.02-5zM3 8.98h4v12H3v-12zm7 0h3.8v1.6h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6v6.3h-4v-5.6c0-1.3 0-3-1.9-3-1.9 0-2.2 1.4-2.2 2.9v5.7h-4v-12z" />
+                    </svg>
                   </span>
-                  <span className="social-label">LinkedIn</span>
-                  <span className="social-arrow">↗</span>
+                  <span className="flex-1 font-semibold">LinkedIn</span>
+                  <span className="text-[#17154D]/45">↗</span>
                 </a>
-                <a className="social" href="https://x.com/SEABWOfficial" target="_blank" rel="noreferrer">
-                  <span className="social-icon-wrap" aria-hidden>
-                    <span className="social-icon">
-                      <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M18.9 3H21l-6.6 7.5L22 21h-6.2l-4.9-6.4L5.5 21H3.4l7-7.9L2 3h6.3l4.4 5.8L18.9 3zm-2.2 16h1.7L7.5 4.9H5.6L16.7 19z" />
-                      </svg>
-                    </span>
+                <a
+                  className="flex w-full items-center gap-3 rounded-2xl border border-[#2E80FF]/20 bg-[#F5F7FF] px-4 py-3 text-sm text-[#17154D]/90 transition hover:border-[#2E80FF]/40 hover:bg-[#E9EEFF]"
+                  href="https://x.com/SEABWOfficial"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-[#2E80FF]/12 text-[#2E80FF]" aria-hidden>
+                    <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor">
+                      <path d="M18.9 3H21l-6.6 7.5L22 21h-6.2l-4.9-6.4L5.5 21H3.4l7-7.9L2 3h6.3l4.4 5.8L18.9 3zm-2.2 16h1.7L7.5 4.9H5.6L16.7 19z" />
+                    </svg>
                   </span>
-                  <span className="social-label">X (Twitter)</span>
-                  <span className="social-arrow">↗</span>
+                  <span className="flex-1 font-semibold">X (Twitter)</span>
+                  <span className="text-[#17154D]/45">↗</span>
                 </a>
               </div>
 
@@ -446,49 +575,6 @@ function Subscribe() {
                 text-shadow:
                   0 1px 10px rgba(46, 128, 255, 0.16),
                   0 0 2px rgba(121, 135, 180, 0.4);
-              }
-              .social {
-                display: grid;
-                grid-template-columns: 32px 1fr 18px;
-                align-items: center;
-                gap: 10px;
-                border: 1px solid rgba(46, 128, 255, 0.2);
-                background: rgba(245, 247, 255, 0.9);
-                padding: 12px 14px;
-                border-radius: 16px;
-                color: rgba(23, 21, 77, 0.9);
-                transition: all 160ms ease;
-              }
-              .social:hover {
-                border-color: rgba(46, 128, 255, 0.45);
-                background: rgba(233, 238, 255, 0.95);
-              }
-              .social-icon-wrap {
-                width: 28px;
-                height: 28px;
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 10px;
-                background: rgba(46, 128, 255, 0.12);
-              }
-              .social-icon {
-                display: inline-flex;
-                width: 18px;
-                height: 18px;
-                color: rgba(46, 128, 255, 0.95);
-              }
-              .social-icon svg {
-                width: 100%;
-                height: 100%;
-              }
-              .social-label {
-                font-weight: 600;
-                color: rgba(23, 21, 77, 0.9);
-              }
-              .social-arrow {
-                text-align: right;
-                color: rgba(23, 21, 77, 0.45);
               }
             `}</style>
           </div>
