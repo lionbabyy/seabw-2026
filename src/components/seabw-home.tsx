@@ -51,6 +51,7 @@ export function SeabwHome() {
       <div className="pointer-events-none fixed inset-0 overflow-hidden">
         <div className="absolute right-0 top-0 h-[480px] w-[560px] bg-[url('/SEABW%20KV-01%20copy.jpg')] bg-cover bg-right opacity-70" />
         <div className="absolute -top-28 left-1/2 h-[560px] w-[560px] -translate-x-1/2 rounded-full bg-[#2E80FF]/18 blur-3xl" />
+        <div className="absolute top-[18%] left-1/2 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-[#2E80FF]/16 blur-[120px]" />
         <div className="absolute -bottom-44 right-[-160px] h-[580px] w-[580px] rounded-full bg-[#1313D2]/12 blur-3xl" />
         <div className="absolute inset-0 bg-[radial-gradient(60%_60%_at_50%_10%,rgba(46,128,255,0.18),rgba(255,255,255,0))]" />
         <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(255,255,255,0),rgba(255,255,255,0.85),rgba(255,255,255,1))]" />
@@ -109,7 +110,7 @@ export function SeabwHome() {
               >
                 <div>
                   <span className="inline-flex h-6 items-center rounded-full border border-slate-200 bg-[#EEF2FF] px-2 text-[11px] text-slate-600">
-                    2026
+                    Theme {i + 1}
                   </span>
                   <h3 className="mt-3 text-base font-semibold tracking-tight">{t.title}</h3>
                 </div>
