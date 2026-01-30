@@ -1,8 +1,6 @@
 "use client";
 
-import Link from "next/link";
 import { motion, type Variants } from "framer-motion";
-import { useEffect, useState } from "react";
 
 
 
@@ -182,7 +180,7 @@ function Header() {
     <div className="relative z-10">
       <div className="mx-auto max-w-6xl px-4">
         <div className="flex items-center justify-between py-5">
-          <Link href="/" className="inline-flex items-center">
+          <a href="/" className="inline-flex items-center">
             {/* Long logo only (symbol included in the artwork) */}
             <div className="relative h-12 w-[260px]">
               <img
@@ -191,7 +189,7 @@ function Header() {
                 className="h-full w-full object-contain object-left"
               />
             </div>
-          </Link>
+          </a>
 
           <div className="hidden items-center gap-2 md:flex">
             <NavPill href="#program" label="Program" />
@@ -232,74 +230,7 @@ function NavPill({ href, label }: { href: string; label: string }) {
 }
 
 function Hero() {
-    const [mounted, setMounted] = useState(false);
-  
-    useEffect(() => {
-      setMounted(true);
-    }, []);
-  
-    // 서버 렌더(SSR)에서는 간단한 정적 placeholder만 렌더 → mismatch 방지
-    if (!mounted) {
-      return (
-        <section className="pt-12 sm:pt-16">
-          <div className="grid gap-10 lg:grid-cols-12 lg:items-end">
-            <div className="lg:col-span-7">
-              <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-[#E9EEFF] px-5 py-2 text-sm font-semibold text-slate-900 backdrop-blur whitespace-nowrap">
-                <span className="h-1.5 w-1.5 rounded-full bg-seabw-aqua/90" />
-                Bridging Web3 Innovations in Southeast Asia
-              </div>
-  
-              <h1 className="mt-5 text-balance text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl">
-                Southeast Asia
-                <span className="block bg-gradient-to-r from-[#2E80FF] via-white to-[#1313D2] bg-clip-text text-transparent">
-                  Blockchain Week 2026
-                </span>
-              </h1>
-  
-              <p className="mt-5 max-w-xl text-base leading-relaxed text-slate-600">
-                20–21 May, 2026 · TRUE ICON HALL, Bangkok
-                <br />
-                A minimal-luxury, blue-tech gathering for builders, institutions, and communities in SEA.
-              </p>
-  
-              <div className="mt-8 flex flex-wrap items-center gap-3">
-                <a
-                  href="#subscribe"
-                  className="inline-flex items-center justify-center rounded-full bg-[#2E80FF] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#2E80FF]/90"
-                >
-                  Get updates
-                </a>
-                <span className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-[#F5F7FF] px-5 py-3 text-sm font-semibold text-slate-800 backdrop-blur">
-                  Apply ▾
-                </span>
-              </div>
-            </div>
-  
-            <div className="lg:col-span-5">
-              <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-[#F5F7FF] p-6 backdrop-blur">
-                <div className="text-sm font-semibold text-slate-800">Quick links</div>
-                <div className="mt-4 grid gap-2">
-                  {APPLY_LINKS.map((l) => (
-                    <div
-                      key={l.label}
-                      className="flex items-center justify-between rounded-2xl border border-slate-200 bg-[#F8FAFF] px-4 py-3 text-sm text-slate-700"
-                    >
-                      <span>{l.label}</span>
-                      <span className="text-slate-400">↗</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-  
-          <div className="mt-14 h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
-        </section>
-      );
-    }
-  
-    // mounted 이후에만 기존 motion/인터랙션 렌더
-    return (
+  return (
       <section className="pt-12 sm:pt-16">
         <div className="grid gap-10 lg:grid-cols-12 lg:items-end">
           <div className="lg:col-span-7">

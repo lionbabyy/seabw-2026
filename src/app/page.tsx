@@ -1,6 +1,9 @@
-"use client";
+import dynamic from "next/dynamic";
 
-import { SeabwHome } from "@/components/seabw-home";
+const SeabwHome = dynamic(
+  () => import("@/components/seabw-home").then((mod) => mod.SeabwHome),
+  { ssr: false }
+);
 
 export default function Page() {
   return <SeabwHome />;
